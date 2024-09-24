@@ -18,6 +18,12 @@
       }
     ],
     "paths": {
+      "@api/*": ["./src/api"],
+      "@components/*": ["./src/components/*"],
+      "@models/*": ["./src/models/*"],
+      "@redux/*": ["./src/lib/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@src/*": ["./src/*"],
       "@/*": ["./*"]
     }
   },
